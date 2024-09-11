@@ -72,4 +72,3 @@ if __name__ == "__main__":
     for batch in dataloaders["train"]:
         print(batch)
         break
-    # print(dataset[0])
