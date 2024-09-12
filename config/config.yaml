@@ -14,6 +14,10 @@ hparams:
     epochs: 10
     batch_size: 16
     lr: 0.001
+    early_stopper:
+        params:
+            patience: 3
+            min_delta: 0.01
     criterion:
         name: torch.nn:MSELoss
         params: {}
